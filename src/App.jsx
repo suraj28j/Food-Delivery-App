@@ -1,8 +1,10 @@
+import Layout from "./components/Layout"
+
 function App() {
 
   return (
     <>
-    <h1>React with vite</h1>
+   <Layout/>
     </>
   )
 }
