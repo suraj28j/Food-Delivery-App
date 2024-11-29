@@ -1,10 +1,15 @@
 import React from 'react'
+import Layout from '../../components/Layout'
+import Section1 from './Section1'
 
 const Home = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Layout>
+         {/* Home Section Hero Button */}
+         <Section1/>
+      </Layout>
+    </>
   )
 }
 
