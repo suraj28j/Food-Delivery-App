@@ -89,22 +89,24 @@ a {
 
 /* Common Button */
 .order_now {
-    color: var(--light-black);
-    background: var(--yellow);
-    border-color: var(--yellow);
-    padding: 18px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    font-family: var(--oswald-font);
+    color: var(--light-black) !important;
+    background: var(--yellow) !important;
+    border-color: var(--yellow) !important ;
+    padding: 15px 38px;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px ;
+    font-family: var(--oswald-font) !important;
     vertical-align: uppercase;
     transition: all 0.3s ease-in-out;
 }
 
+
 .order_now:hover,
 .order_now:focus {
-    color: var(--white);
-    background: transparent;
-    border-color: var(--white);
+    color: var(--white) !important;
+    background: transparent !important;
+    border-color: var(--white) !important;
 }
 
 .btn_red {

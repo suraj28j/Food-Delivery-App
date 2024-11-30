@@ -1,12 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../Assets/logo/logo.png'
 import { Link } from 'react-router-dom'
 import '../styles/HeaderStyle.css'
 
 const Header = () => {
+  const [nav, setNav] = useState(false);
+
+  // Scroll Navbar
+  const changeValueOnScroll = () => {
+    const scrollValue = document?.documentElement?.scrollTop;
+    scrollValue > 100 ? setNav(true) : setNav(false)
+  }
+  window.addEventListener('scroll', changeValueOnScroll)
   return (
     <header>
-      <nav className="navbar navbar-expand-lg ">
+      <nav className={`navbar navbar-expand-lg ${nav === true ? 'sticky' : ""}`}>
         <div className="container">
           <img src={logo} alt='logo' className='img-fluid' />
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
