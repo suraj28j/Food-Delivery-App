@@ -79,6 +79,27 @@ const mockData = [
     // Add more mock data objects as needed
 ];
 
+// Rating Logical Data
+const renderRatingIcon = (rating) => {
+    const stars = [];
+
+    for (let i = 0; i < 5; i++) {
+        if (rating > 0.5) {
+            stars.push(<i key={i} className='bi bi-star-fill'></i>)
+            rating--;
+        } else {
+            if (rating > 0 && rating < 1) {
+                stars.push(<i key={"half"} className='bi bi-star-half'></i>)
+                rating--;
+            } else {
+                stars.push(<i key={`empty${i}`} className='bi bi-star'></i>)
+            }
+        }
+    }
+    return stars;
+}
+
+
 const Section3 = () => {
     return (
         <div className='menu_section'>
@@ -96,7 +117,7 @@ const Section3 = () => {
                     <div className='col-md-2'></div>
                 </div>
 
-                <div className='row g-4'>
+                <div className='row g-4 mb-4'>
                     {
                         mockData.map((mockData, index) => (
                             <div className='col-md-3' key={index}>
@@ -107,7 +128,7 @@ const Section3 = () => {
                                     <div className="card-body ">
                                         <div className='rating d-flex justify-content-between align-items-center'>
                                             <div className='item_rating'>
-                                                <p>{mockData.rating}</p>
+                                                <p>{renderRatingIcon(mockData.rating)}</p>
                                             </div>
                                             <div className='wishlist'>
                                                 <p><i className="bi bi-heart"></i></p>
@@ -141,7 +162,7 @@ const Section3 = () => {
                         </div>
                     </div>
                     <div className='col-md-7'>
-                        <div className='ads_box ads_img1 mb-4 mb-md-0'>
+                        <div className='ads_box ads_img2 mb-4 mb-md-0'>
                             <h4 className='mb-0'>GET YOUR FREE</h4>
                             <h5>CHEESE FRIES</h5>
                             <Link to="/" className='btn order_now btn_red px-4'>Learn More</Link>
