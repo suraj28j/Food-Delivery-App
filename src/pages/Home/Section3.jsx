@@ -85,21 +85,25 @@ const Section3 = () => {
             <div className='container'>
 
                 <div className='row'>
-                    <div className='col-md-8'>
+                    <div className='col-md-2'></div>
+                    <div className='col-md-8 text-center mb-4'>
                         <h2>OUR CRAZY BURGERS</h2>
                         <p className="para">
                             Aliquam a augue suscipit, luctus neque purus ipsum neque undo
                             dolor primis libero tempus, blandit a cursus varius magna
                         </p>
                     </div>
+                    <div className='col-md-2'></div>
                 </div>
 
                 <div className='row g-4'>
                     {
                         mockData.map((mockData, index) => (
                             <div className='col-md-3' key={index}>
-                                <div className="card" style={{ minWidth: "18rem" }}>
-                                    <img src={mockData.image} className="card-img-top" alt={mockData.id} />
+                                <div className="card overflow-hidden" style={{ minWidth: "18rem" }}>
+                                    <div className='overflow-hidden'>
+                                        <img src={mockData.image} className="card-img-top overflow-hidden" alt={mockData.id} />
+                                    </div>
                                     <div className="card-body ">
                                         <div className='rating d-flex justify-content-between align-items-center'>
                                             <div className='item_rating'>
@@ -113,10 +117,10 @@ const Section3 = () => {
                                         <p className="card-text">{mockData.paragraph}</p>
                                         <div className='d-flex justify-content-between align-items-center'>
                                             <div className='menu_price'>
-                                                <h5>$ {mockData.price}</h5>
+                                                <h5 className='mb-0'>$ {mockData.price}</h5>
                                             </div>
                                             <div className='add_to_cart'>
-                                                <Link to="/">
+                                                <Link className='nav-link' to="/">
                                                     <i className="bi bi-bag"></i> Add to Cart
                                                 </Link>
                                             </div>
@@ -126,6 +130,23 @@ const Section3 = () => {
                             </div>
                         ))
                     }
+                </div>
+
+                <div className='row pt-4'>
+                    <div className='col-md-5'>
+                        <div className='ads_box ads_img1 mb-4 mb-md-0'>
+                            <h4 className='mb-0'>GET YOUR FREE</h4>
+                            <h5>CHEESE FRIES</h5>
+                            <Link to="/" className='btn order_now btn_red px-4'>Learn More</Link>
+                        </div>
+                    </div>
+                    <div className='col-md-7'>
+                        <div className='ads_box ads_img1 mb-4 mb-md-0'>
+                            <h4 className='mb-0'>GET YOUR FREE</h4>
+                            <h5>CHEESE FRIES</h5>
+                            <Link to="/" className='btn order_now btn_red px-4'>Learn More</Link>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
