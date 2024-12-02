@@ -326,7 +326,9 @@
 .blog_section .carousel-item h5{
     font-size: 1rem;
     margin-bottom: 1rem;
+    margin-bottom: 30px;
 }
+
 
 
 /* Media Query */
