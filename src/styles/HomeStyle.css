@@ -220,7 +220,44 @@
     font-size: 18px;
 }
 
+
+/* Home Promotion 3.0 */
+
+.promotion_section {
+    padding: 60px 0;
+    background-color: var(--light-gray);
+}
+
+.promotion_section h2 {
+    font-size: 3.25rem;
+    margin-bottom: 25px;
+}
+
+.promotion_section p {
+    font-size: 1.125rem;
+}
+
+.promotion_section ul {
+    padding-left: 15px;
+}
+
+/* Home Parallax 5.0 */
+.bg_parallax_scroll {
+    background: url("../Assets//parallax/bg.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+}
+
 /* Media Query */
+
+@media (max-width:1200px) {
+    .promotion_section h2 {
+        font-size: 2.25rem;
+    }
+}
+
 @media (max-width:992px) {
 
     /* Home About 2.0 */
@@ -234,6 +271,12 @@
 
     .about_wrapper .about_box p {
         padding: 0;
+    }
+
+    /* Home Parallax 5.0 */
+    .bg_parallax_scroll {
+        background-attachment: scroll;
+        height: 500px;
     }
 }
 

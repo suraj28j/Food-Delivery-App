@@ -106,8 +106,8 @@ const Section3 = () => {
             <div className='container'>
 
                 <div className='row'>
-                    <div className='col-md-2'></div>
-                    <div className='col-md-8 text-center mb-4'>
+                    <div className='col-lg-2'></div>
+                    <div className='col-lg-8 text-center mb-4'>
                         <h2>OUR CRAZY BURGERS</h2>
                         <p className="para">
                             Aliquam a augue suscipit, luctus neque purus ipsum neque undo
@@ -120,7 +120,7 @@ const Section3 = () => {
                 <div className='row g-4 mb-4'>
                     {
                         mockData.map((mockData, index) => (
-                            <div className='col-md-3' key={index}>
+                            <div className='col-lg-3' key={index}>
                                 <div className="card overflow-hidden" style={{ minWidth: "18rem" }}>
                                     <div className='overflow-hidden'>
                                         <img src={mockData.image} className="card-img-top overflow-hidden" alt={mockData.id} />
@@ -154,14 +154,14 @@ const Section3 = () => {
                 </div>
 
                 <div className='row pt-4'>
-                    <div className='col-md-5'>
+                    <div className='col-lg-5'>
                         <div className='ads_box ads_img1 mb-4 mb-md-0'>
                             <h4 className='mb-0'>GET YOUR FREE</h4>
                             <h5>CHEESE FRIES</h5>
                             <Link to="/" className='btn order_now btn_red px-4'>Learn More</Link>
                         </div>
                     </div>
-                    <div className='col-md-7'>
+                    <div className='col-lg-7'>
                         <div className='ads_box ads_img2 mb-4 mb-md-0'>
                             <h4 className='mb-0'>GET YOUR FREE</h4>
                             <h5>CHEESE FRIES</h5>
