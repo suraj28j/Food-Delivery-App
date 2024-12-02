@@ -250,6 +250,52 @@
     height: 700px;
 }
 
+/* Home Shop 5.0 */
+
+.shop_section {
+    padding: 100px 0 0;
+    background: var(--yellow);
+}
+
+.shop_section h4 {
+    font-size: 2.375rem;
+    font-weight: 400;
+    color: var(--bg-coffee);
+}
+
+.shop_section h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: var(--bg-coffee);
+}
+
+.shop_section p {
+    font-size: 1.125rem;
+    padding-right: 10%;
+    color: var(--bg-coffee);
+    margin-bottom: 40px;
+}
+
+.shop_section .store {
+    max-width: 40%;
+}
+
+/* .shop_section .e_shop{
+    text-align: center;
+} */
+.brand_section {
+    padding: 70px 0 40px;
+    background: var(--light-gray);
+    overflow: hidden;
+}
+
+.brand_section img {
+    width: 10rem;
+    height: auto;
+}
+
+
 /* Media Query */
 
 @media (max-width:1200px) {
@@ -294,5 +340,21 @@
     .menu_section .para {
         color: var(--grey);
         padding: 10px 0px;
+    }
+
+    /* Home Shop 6.0 */
+    .shop_section h4 {
+        font-size: 1.8rem;
+    }
+
+    .shop_section h2 {
+        font-size: 3.75rem;
+    }
+
+    .brand_section {
+        padding: 50px 0 10px;
+    }
+    .brand_section img{
+        width: 70px;
     }
 }
