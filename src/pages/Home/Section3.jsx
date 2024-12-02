@@ -120,10 +120,10 @@ const Section3 = () => {
                 <div className='row g-4 mb-4'>
                     {
                         mockData.map((mockData, index) => (
-                            <div className='col-lg-3' key={index}>
-                                <div className="card overflow-hidden" style={{ minWidth: "18rem" }}>
+                            <div className='col-sm-6 col-lg-4 col-xl-3' key={index}>
+                                <div className="card overflow-hidden">
                                     <div className='overflow-hidden'>
-                                        <img src={mockData.image} className="card-img-top overflow-hidden" alt={mockData.id} />
+                                        <img src={mockData.image} className="card-img-top " alt={mockData.id} />
                                     </div>
                                     <div className="card-body ">
                                         <div className='rating d-flex justify-content-between align-items-center'>
@@ -136,7 +136,7 @@ const Section3 = () => {
                                         </div>
                                         <h5 className="card-title">{mockData.title}</h5>
                                         <p className="card-text">{mockData.paragraph}</p>
-                                        <div className='d-flex justify-content-between align-items-center'>
+                                        <div className='d-flex justify-content-between'>
                                             <div className='menu_price'>
                                                 <h5 className='mb-0'>$ {mockData.price}</h5>
                                             </div>

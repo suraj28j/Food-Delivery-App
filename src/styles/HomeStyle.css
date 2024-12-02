@@ -221,7 +221,7 @@
 }
 
 
-/* Home Promotion 3.0 */
+/* Home Promotion 4.0 */
 
 .promotion_section {
     padding: 60px 0;
@@ -253,6 +253,8 @@
 /* Media Query */
 
 @media (max-width:1200px) {
+    
+    /* Home Promotion 4.0 */
     .promotion_section h2 {
         font-size: 2.25rem;
     }
@@ -272,6 +274,7 @@
     .about_wrapper .about_box p {
         padding: 0;
     }
+
 
     /* Home Parallax 5.0 */
     .bg_parallax_scroll {
