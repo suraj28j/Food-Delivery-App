@@ -102,9 +102,8 @@ const renderRatingIcon = (rating) => {
 
 const Section3 = () => {
     return (
-        <div className='menu_section'>
+        <section className='menu_section'>
             <div className='container'>
-
                 <div className='row'>
                     <div className='col-lg-2'></div>
                     <div className='col-lg-8 text-center mb-4'>
@@ -114,7 +113,7 @@ const Section3 = () => {
                             dolor primis libero tempus, blandit a cursus varius magna
                         </p>
                     </div>
-                    <div className='col-md-2'></div>
+                    <div className='col-lg-2'></div>
                 </div>
 
                 <div className='row g-4 mb-4'>
@@ -155,7 +154,7 @@ const Section3 = () => {
 
                 <div className='row pt-4'>
                     <div className='col-lg-5'>
-                        <div className='ads_box ads_img1 mb-4 mb-md-0'>
+                        <div className='ads_box ads_img1 mb-4'>
                             <h4 className='mb-0'>GET YOUR FREE</h4>
                             <h5>CHEESE FRIES</h5>
                             <Link to="/" className='btn order_now btn_red px-4'>Learn More</Link>
@@ -170,7 +169,7 @@ const Section3 = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -28,7 +28,7 @@ const mockData = [
 const Section2 = () => {
     return (
         <>
-            <div className='about_section'>
+            <section className='about_section'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-2'></div>
@@ -43,9 +43,9 @@ const Section2 = () => {
                         <div className='col-md-2'></div>
                     </div>
                 </div>
-            </div>
+            </section>
             
-            <div className='about_wrapper'>
+            <section className='about_wrapper'>
                 <div className='container'>
                     <div className='row'>
                         {
@@ -63,7 +63,7 @@ const Section2 = () => {
                         }
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

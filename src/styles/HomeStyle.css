@@ -241,7 +241,7 @@
     padding-left: 15px;
 }
 
-/* Home Parallax 5.0 */
+/* Home Parallax 4.1 */
 .bg_parallax_scroll {
     background: url("../Assets//parallax/bg.jpg") no-repeat center center;
     background-size: cover;
@@ -253,7 +253,7 @@
 /* Media Query */
 
 @media (max-width:1200px) {
-    
+
     /* Home Promotion 4.0 */
     .promotion_section h2 {
         font-size: 2.25rem;
@@ -276,7 +276,7 @@
     }
 
 
-    /* Home Parallax 5.0 */
+    /* Home Parallax 4.1 */
     .bg_parallax_scroll {
         background-attachment: scroll;
         height: 500px;

@@ -4,7 +4,7 @@ import PromotionImage from "../../Assets/promotion/pro.png"
 const Section4 = () => {
     return (
         <>
-            <div className='promotion_section'>
+            <section className='promotion_section'>
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-lg-6 text-center mb-4 mb-lg-0'>
@@ -31,7 +31,7 @@ const Section4 = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             {/* BG Parallax Scroll */}
             <div className='bg_parallax_scroll'></div>
