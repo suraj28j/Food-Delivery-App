@@ -67,7 +67,6 @@ const Section5 = () => {
                                         <img src={Brand8} className="img-fluid" alt="Brand1" />
                                     </div>
                                 </div>
-
                             </div>
                         </div>
 

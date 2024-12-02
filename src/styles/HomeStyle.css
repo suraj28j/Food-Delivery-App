@@ -296,6 +296,39 @@
 }
 
 
+/* Home Blog 6.0 */
+
+.blog_section{
+    padding: 80px 0 50px;
+    background: url("../Assets/blog/reviews.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--light-gray);
+}
+.blog_section img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-bottom: 25px;
+}
+.blog_section .carousel-item p{
+    font-size: 1.7rem;
+    line-height: 1.45;
+    font-weight: 400;
+    padding: 0 12%;
+    margin-bottom: 25px;
+}
+.blog_section .carousel-item i{
+    color: var(--yellow);
+    margin-right: 5px;
+}
+.blog_section .carousel-item h5{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+
 /* Media Query */
 
 @media (max-width:1200px) {
@@ -356,5 +389,10 @@
     }
     .brand_section img{
         width: 70px;
+    }
+
+    /* Home Blog 6.0 */
+    .blog_section .carousel-item p{
+        font-size: 1rem;
     }
 }
