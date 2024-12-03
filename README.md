@@ -1,8 +1,25 @@
-# React + Vite
+# Online food ordering app | React with Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Home Section UI
 
-Currently, two official plugins are available:
+![alt  Home_Section](https://github.com/suraj28j/Food-Delivery-App/blob/main/Home%20Section%20UI.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+--- 
+
+- About Section UI
+
+![alt  About_Section](https://github.com/suraj28j/Food-Delivery-App/blob/main/About%20Section%20UI.jpeg)
+
+--- 
+
+- Menu Section UI
+
+![alt  Menu_Section](https://github.com/suraj28j/Food-Delivery-App/blob/main/Menu%20Section%20UI.jpeg)
+
+--- 
+
+- Footer Section UI
+
+![alt  Footer_Section](https://github.com/suraj28j/Food-Delivery-App/blob/main/Footer%20Section%20UI.jpeg)
+
+--- 
