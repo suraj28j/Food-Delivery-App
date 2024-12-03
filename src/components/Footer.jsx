@@ -76,7 +76,7 @@ const Footer = () => {
             <div>
               <ul className='list-unstyled text-center mb-0'>
                 <li>
-                  <Link to="/" className='nav-link'>© 2023 <span>CODE4EDUCATION</span>. All Rights Reserved</Link>
+                  <Link to="/" className='nav-link'>© 2024 <span>CODE4EDUCATION</span>. All Rights Reserved</Link>
                 </li>
                 <li>
                   <Link to="/" className='nav-link'>About Us</Link>
